@@ -23,10 +23,9 @@ console.log(price)
 console.log(productLabel)
 console.log(rating)
 
-const transaction = (type, {label:productLabel="Lei", rating = 5} = {}) => {
+const transaction = (type, {label:productLabel="Lei", rating = 5}) => {
     console.log(productLabel)
     console.log(rating)
 }
 
 transaction('order', product)
-transaction('order')
